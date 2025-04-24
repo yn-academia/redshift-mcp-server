@@ -131,9 +131,9 @@ async def list_tools() -> list[Tool]:
                     "sql": {
                         "type": "string",
                         "description": "The SQL to Execute"
-                    },
-                    "required": ["sql"]
-                }
+                    }
+                },
+                "required": ["sql"]
             }
         ),
         Tool(
